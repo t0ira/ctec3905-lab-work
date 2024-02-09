@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    background-color:maroon;
+    flex-direction: column;
+    width: 15vw;
+    flex-shrink: 0;
+    order: 2;
+}
+nav a {
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgba(184, 28, 28, 0.753);
+}
+header, main {
+    overflow: auto;
+}
+main {
+    box-sizing: border-box;
+    display: flex;
+}
